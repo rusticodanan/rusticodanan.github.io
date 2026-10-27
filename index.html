@@ -199,72 +199,352 @@
     </div>
   </section>
 
-  <section id="projects">
-    <div class="wrap">
-      <div class="section-head">
-        <div class="kicker">Selected work</div>
-        <h2>Projects &amp; case studies</h2>
-        <p>A curated view of my experience. Detailed public-safe demonstrations and additional dashboards will be added over time.</p>
-      </div>
+  
+<section id="projects">
+  <div class="wrap">
 
-      <div class="filters" role="group" aria-label="Filter projects">
-        <button class="filter" data-filter="all" aria-pressed="true">All projects</button>
-        <button class="filter" data-filter="ml" aria-pressed="false">Machine Learning</button>
-        <button class="filter" data-filter="analytics" aria-pressed="false">Analytics</button>
-        <button class="filter" data-filter="nlp" aria-pressed="false">NLP</button>
-        <button class="filter" data-filter="automation" aria-pressed="false">Automation</button>
-      </div>
-
-      <div class="projects">
-        <article class="project" data-cat="ml"><span class="pill">UNIONDIGITAL · ML</span><h3>Behavioral Collections &amp; Delinquency Prediction</h3><p>Classification workflows using behavioral signals, engineered features, out-of-time validation, decile analysis, and population stability monitoring.</p><div class="tags"><span class="tag">Python</span><span class="tag">LightGBM</span><span class="tag">Model Validation</span><a href="projects/behavioral-collections.html"
-   style="display:inline-block;
-          margin-top:15px;
-          color:#0769b4;
-          font-weight:700;
-          text-decoration:none;">
-  Explore Full Case Study →
-</a></div></article>
-        <article class="project" data-cat="ml"><span class="pill">UNIONDIGITAL · ML</span><h3>Repeat Borrower Propensity Modeling</h3><p>Predictive lead-ranking research with chronological validation, model comparisons, financial-flow features, and explainability techniques.</p><div class="tags"><span class="tag">Python</span><span class="tag">XGBoost</span><span class="tag">SHAP</span><a href="projects/rb-propensity.html"
-   style="display:inline-block;
-          margin-top:15px;
-          color:#0769b4;
-          font-weight:700;
-          text-decoration:none;">
-  Explore Full Case Study →
-</a></div></article>
-        <article class="project" data-cat="analytics"><span class="pill">UNIONDIGITAL · CUSTOMER ECONOMICS</span><h3>Customer Lifetime Value Modeling</h3><p>Sequence-based customer profitability framework incorporating repeat borrowing, lending journeys, risk segmentation, and net margin assumptions.</p><div class="tags"><span class="tag">SQL</span><span class="tag">Excel</span><span class="tag">CLV</span>
-        <a href="projects/customer-lifetime-value.html"
-   style="display:inline-block;
-          margin-top:15px;
-          color:#0769b4;
-          font-weight:700;
-          text-decoration:none;">
-  Explore Full Case Study →
-</a>
-        
-        </div></article>
-        <article class="project" data-cat="nlp"><span class="pill">UNIONDIGITAL · NLP</span><h3>Social Listening &amp; Sentiment Intelligence</h3><p>Analysis of public digital-banking discussions using multilingual Transformer models, emotion classification, and topic discovery.</p><div class="tags"><span class="tag">BERT</span><span class="tag">BERTopic</span><span class="tag">Python</span>
-        <a href="projects/loan-channeling.html"
-   style="display:inline-block;
-          margin-top:15px;
-          color:#0769b4;
-          font-weight:700;
-          text-decoration:none;">
-  Explore Full Case Study →
-</a>
-        
-        </div></article>
-        <article class="project" data-cat="automation"><span class="pill">UNIONDIGITAL · DATA ENGINEERING</span><h3>Loan Channeling Automation</h3><p>Interconnected processing workflows covering eligibility, booking reconciliation, payment, amortization, and buyback operations.</p><div class="tags"><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">ETL</span></div></article>
-        <article class="project" data-cat="ml"><span class="pill">UNIONDIGITAL · UNSUPERVISED ML</span><h3>CLARA Customer Segmentation</h3><p>Customer-group assignment for first-time and repeat borrowers with standardized features and scalable medoid-based inference.</p><div class="tags"><span class="tag">R</span><span class="tag">CLARA</span><span class="tag">Clustering</span></div></article>
-        <article class="project" data-cat="analytics"><span class="pill">UNIONDIGITAL · STATISTICS</span><h3>Borrower Lifecycle &amp; Survival Analysis</h3><p>Time-to-repeat-borrowing analysis, cohort conversion patterns, and survival approaches to understand customer lifecycle behavior.</p><div class="tags"><span class="tag">Kaplan–Meier</span><span class="tag">Cohorts</span></div></article>
-        <article class="project" data-cat="analytics"><span class="pill">UNIONDIGITAL · RISK ANALYTICS</span><h3>Delinquency Hazard Modeling</h3><p>Cox proportional hazards analysis examining the timing of delinquency events and relationships with borrowing behavior.</p><div class="tags"><span class="tag">Cox PH</span><span class="tag">Survival</span></div></article>
-        <article class="project" data-cat="analytics"><span class="pill">UNIONDIGITAL · PRODUCT ANALYTICS</span><h3>Activation &amp; Lending Funnel Diagnostics</h3><p>Booking-velocity cohorts, conversion timing, eligibility patterns, and rule-effectiveness analysis to investigate operational bottlenecks.</p><div class="tags"><span class="tag">Cohorts</span><span class="tag">Funnel Analysis</span></div></article>
-        <article class="project" data-cat="analytics"><span class="pill">L'ORÉAL · COMMERCIAL ANALYTICS</span><h3>Promotion Forecasting &amp; Profitability</h3><p>R-based demand scenario estimates combined with promotional cost and financial calculations, supported by Power BI reporting.</p><div class="tags"><span class="tag">R</span><span class="tag">Regression</span><span class="tag">Power BI</span></div></article>
-        <article class="project" data-cat="automation"><span class="pill">MOSAIC · OPERATIONS</span><h3>Generic Scheduler &amp; Workflow Automation</h3><p>A scheduling application associated with file-processing and systems-integration workflows; implementation details are being documented.</p><div class="tags"><span class="tag">Scheduling</span><span class="tag">Integration</span></div></article>
-        <article class="project" data-cat="automation"><span class="pill">UNIONDIGITAL · AUTOMATION</span><h3>Loan Parameter Validation</h3><p>Repeatable Python-based checks and reporting workflows for loan parameter validation and analytical quality controls.</p><div class="tags"><span class="tag">Python</span><span class="tag">Validation</span><span class="tag">Excel</span></div></article>
-      </div>
+    <div class="section-head">
+      <div class="kicker">Selected Work</div>
+      <h2>Projects &amp; Case Studies</h2>
+      <p>
+        A selection of my work in machine learning,
+        predictive analytics, data science, and automation.
+        Explore the projects to learn more about my approach,
+        methodologies, and findings.
+      </p>
     </div>
-  </section>
+
+    <!-- PROJECT FILTERS -->
+    <div class="filters" role="group" aria-label="Filter projects">
+      <button class="filter" data-filter="all" aria-pressed="true">
+        All Projects
+      </button>
+      <button class="filter" data-filter="ml" aria-pressed="false">
+        Machine Learning
+      </button>
+      <button class="filter" data-filter="analytics" aria-pressed="false">
+        Analytics
+      </button>
+      <button class="filter" data-filter="nlp" aria-pressed="false">
+        NLP
+      </button>
+      <button class="filter" data-filter="automation" aria-pressed="false">
+        Automation
+      </button>
+    </div>
+
+    <div class="projects">
+
+      <!-- 01. BEHAVIORAL COLLECTIONS -->
+      <article class="project" data-cat="ml">
+        <span class="pill">UNIONDIGITAL · MACHINE LEARNING</span>
+
+        <h3>Behavioral Collections &amp; Delinquency Prediction</h3>
+
+        <p>
+          Developed a LightGBM-based predictive model to identify
+          borrowers at risk of progressing to DPD30.
+          Integrated behavioral features, payroll stability,
+          SHAP explainability, and out-of-time validation
+          to support risk-based collections prioritization.
+        </p>
+
+        <div class="tags">
+          <span class="tag">Python</span>
+          <span class="tag">LightGBM</span>
+          <span class="tag">SHAP</span>
+        </div>
+
+        <a class="project-link"
+           href="projects/behavioral-collections.html">
+          Explore Full Case Study &rarr;
+        </a>
+      </article>
+
+      <!-- 02. REPEAT BORROWER PROPENSITY -->
+      <article class="project" data-cat="ml">
+        <span class="pill">UNIONDIGITAL · MACHINE LEARNING</span>
+
+        <h3>Repeat Borrower Propensity Modeling</h3>
+
+        <p>
+          Built predictive models to identify borrowers most
+          likely to take another loan. Combined historical
+          borrowing behavior, financial-flow features,
+          model experimentation, and SHAP analysis
+          to support targeted lending strategies.
+        </p>
+
+        <div class="tags">
+          <span class="tag">Python</span>
+          <span class="tag">CatBoost</span>
+          <span class="tag">XGBoost</span>
+          <span class="tag">SHAP</span>
+        </div>
+
+        <a class="project-link"
+           href="projects/rb-propensity.html">
+          Explore Full Case Study &rarr;
+        </a>
+      </article>
+
+      <!-- 03. CUSTOMER LIFETIME VALUE -->
+      <article class="project" data-cat="analytics">
+        <span class="pill">UNIONDIGITAL · CUSTOMER ECONOMICS</span>
+
+        <h3>Customer Lifetime Value &amp; Experiment Profitability</h3>
+
+        <p>
+          Designed a CLV calculator integrating net margin,
+          repeat borrowing probabilities, and loan lifecycle
+          economics. Developed a financial framework for
+          evaluating lending experiments through both
+          immediate profitability and expected lifetime value.
+        </p>
+
+        <div class="tags">
+          <span class="tag">SQL</span>
+          <span class="tag">Excel</span>
+          <span class="tag">CLV</span>
+          <span class="tag">Financial Modeling</span>
+        </div>
+
+        <a class="project-link"
+           href="projects/customer-lifetime-value.html">
+          Explore Full Case Study &rarr;
+        </a>
+      </article>
+
+      <!-- 04. SOCIAL LISTENING -->
+      <article class="project" data-cat="nlp">
+        <span class="pill">UNIONDIGITAL · NLP</span>
+
+        <h3>Social Listening &amp; Sentiment Intelligence</h3>
+
+        <p>
+          Analyzed digital banking discussions using
+          multilingual Transformer models, sentiment analysis,
+          emotion classification, and topic modeling
+          to uncover customer perceptions and emerging themes.
+        </p>
+
+        <div class="tags">
+          <span class="tag">Python</span>
+          <span class="tag">BERT</span>
+          <span class="tag">BERTopic</span>
+          <span class="tag">NLP</span>
+        </div>
+
+        <a class="project-link"
+           href="projects/social-listening.html">
+          Explore Full Case Study &rarr;
+        </a>
+      </article>
+
+      <!-- 05. LOAN CHANNELING AUTOMATION -->
+      <article class="project" data-cat="automation">
+        <span class="pill">UNIONDIGITAL · DATA ENGINEERING</span>
+
+        <h3>End-to-End Loan Channeling Automation</h3>
+
+        <p>
+          Developed interconnected data processing workflows
+          covering loan eligibility, booking, amortization,
+          payment, buyback, and reconciliation.
+          Integrated Python, SQL, and structured file processing
+          to automate complex lending operations.
+        </p>
+
+        <div class="tags">
+          <span class="tag">Python</span>
+          <span class="tag">SQL</span>
+          <span class="tag">ETL</span>
+          <span class="tag">Automation</span>
+        </div>
+
+        <a class="project-link"
+           href="projects/loan-channeling.html">
+          Explore Full Case Study &rarr;
+        </a>
+      </article>
+
+      <!-- 06. CLARA SEGMENTATION -->
+      <article class="project" data-cat="ml">
+        <span class="pill">UNIONDIGITAL · UNSUPERVISED ML</span>
+
+        <h3>CLARA Customer Segmentation</h3>
+
+        <p>
+          Developed customer segmentation using the CLARA
+          clustering algorithm to identify distinct borrower
+          profiles. Applied scalable medoid-based clustering
+          to first-time and repeat borrowers.
+        </p>
+
+        <div class="tags">
+          <span class="tag">R</span>
+          <span class="tag">CLARA</span>
+          <span class="tag">Clustering</span>
+        </div>
+
+        <a class="project-link"
+           href="projects/clara-segmentation.html">
+          Explore Full Case Study &rarr;
+        </a>
+      </article>
+
+      <!-- 07. BORROWER LIFECYCLE -->
+      <article class="project" data-cat="analytics">
+        <span class="pill">UNIONDIGITAL · STATISTICAL ANALYSIS</span>
+
+        <h3>Borrower Lifecycle &amp; Survival Analysis</h3>
+
+        <p>
+          Applied survival analysis and cohort-based methods
+          to examine repeat borrowing behavior, time to
+          conversion, and customer lifecycle patterns.
+        </p>
+
+        <div class="tags">
+          <span class="tag">Kaplan-Meier</span>
+          <span class="tag">Survival Analysis</span>
+          <span class="tag">Cohort Analysis</span>
+        </div>
+
+        <a class="project-link"
+           href="projects/borrower-lifecycle.html">
+          Explore Full Case Study &rarr;
+        </a>
+      </article>
+
+      <!-- 08. DELINQUENCY HAZARD -->
+      <article class="project" data-cat="analytics">
+        <span class="pill">UNIONDIGITAL · RISK ANALYTICS</span>
+
+        <h3>Delinquency Hazard Modeling</h3>
+
+        <p>
+          Applied Cox proportional hazards modeling
+          to examine the timing of delinquency events
+          and identify factors associated with
+          repayment risk over time.
+        </p>
+
+        <div class="tags">
+          <span class="tag">Cox PH</span>
+          <span class="tag">Survival Analysis</span>
+          <span class="tag">Risk Modeling</span>
+        </div>
+
+        <a class="project-link"
+           href="projects/delinquency-hazard.html">
+          Explore Full Case Study &rarr;
+        </a>
+      </article>
+
+      <!-- 09. LENDING FUNNEL -->
+      <article class="project" data-cat="analytics">
+        <span class="pill">UNIONDIGITAL · PRODUCT ANALYTICS</span>
+
+        <h3>Activation &amp; Lending Funnel Diagnostics</h3>
+
+        <p>
+          Analyzed lending funnel conversion, booking velocity,
+          customer activation, and eligibility rules
+          to identify process bottlenecks and opportunities
+          for improving lending conversion.
+        </p>
+
+        <div class="tags">
+          <span class="tag">SQL</span>
+          <span class="tag">Cohort Analysis</span>
+          <span class="tag">Funnel Analysis</span>
+        </div>
+
+        <a class="project-link"
+           href="projects/lending-funnel.html">
+          Explore Full Case Study &rarr;
+        </a>
+      </article>
+
+      <!-- 10. PROMOTION FORECASTING -->
+      <article class="project" data-cat="analytics">
+        <span class="pill">L'ORÉAL · COMMERCIAL ANALYTICS</span>
+
+        <h3>Promotion Forecasting &amp; Profitability</h3>
+
+        <p>
+          Developed R-based promotional forecasting
+          and financial analysis workflows to estimate
+          promotional outcomes and support commercial
+          planning, complemented by Power BI reporting.
+        </p>
+
+        <div class="tags">
+          <span class="tag">R</span>
+          <span class="tag">Regression</span>
+          <span class="tag">Power BI</span>
+        </div>
+
+        <a class="project-link"
+           href="projects/promotion-forecasting.html">
+          Explore Full Case Study &rarr;
+        </a>
+      </article>
+
+      <!-- 11. GENERIC SCHEDULER -->
+      <article class="project" data-cat="automation">
+        <span class="pill">MOSAIC · AUTOMATION</span>
+
+        <h3>Generic Scheduler &amp; Workflow Automation</h3>
+
+        <p>
+          Worked on scheduling and workflow automation
+          supporting recurring operational processes,
+          file handling, and system integration.
+        </p>
+
+        <div class="tags">
+          <span class="tag">Scheduling</span>
+          <span class="tag">Automation</span>
+          <span class="tag">Integration</span>
+        </div>
+
+        <a class="project-link"
+           href="projects/generic-scheduler.html">
+          Explore Full Case Study &rarr;
+        </a>
+      </article>
+
+      <!-- 12. LOAN PARAMETER VALIDATION -->
+      <article class="project" data-cat="automation">
+        <span class="pill">UNIONDIGITAL · AUTOMATION</span>
+
+        <h3>Loan Parameter Validation</h3>
+
+        <p>
+          Developed repeatable Python-based validation
+          workflows for checking loan parameters,
+          identifying exceptions, and supporting
+          data quality and operational controls.
+        </p>
+
+        <div class="tags">
+          <span class="tag">Python</span>
+          <span class="tag">Validation</span>
+          <span class="tag">Excel</span>
+        </div>
+
+        <a class="project-link"
+           href="projects/loan-parameter-validation.html">
+          Explore Full Case Study &rarr;
+        </a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
 
   <section id="experience" style="background:#fff">
     <div class="wrap">
